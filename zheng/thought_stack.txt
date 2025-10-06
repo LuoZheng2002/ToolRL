@@ -1,0 +1,3 @@
+Start from train_gpro.sh
+
+bash ./examples/grpo_trainer/run_grpo.sh
