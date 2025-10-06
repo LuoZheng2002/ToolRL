@@ -1,0 +1,7 @@
+[NbConvertApp] Converting notebook toolrl_trained/test.ipynb to script
+[NbConvertApp] Writing 693 bytes to toolrl_trained/test_script.py
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  29%|██▊       | 2/7 [00:00<00:00, 17.06it/s]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:00<00:00, 15.76it/s]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:00<00:00, 16.80it/s]Loading checkpoint shards: 100%|██████████| 7/7 [00:00<00:00, 19.25it/s]
+Device set to use cuda:0
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Both `max_new_tokens` (=256) and `max_length`(=50) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
