@@ -1,0 +1,6 @@
+[NbConvertApp] Converting notebook test_toolrl.ipynb to script
+[NbConvertApp] Writing 1558 bytes to test_toolrl.py
+Traceback (most recent call last):
+  File "/u/zluo8/sim2real/ToolRL/zheng/test_toolrl.py", line 8, in <module>
+    from verl.workers.rollout.vllm_rollout import vLLMRollout
+ModuleNotFoundError: No module named 'verl'

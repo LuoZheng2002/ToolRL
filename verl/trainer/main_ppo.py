@@ -114,6 +114,8 @@ def main(config):
 
 @ray.remote
 def main_task(config):
+    print(config)
+    exit(1)
     from verl.utils.fs import copy_local_path_from_hdfs
     from transformers import AutoTokenizer
 
